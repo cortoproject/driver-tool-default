@@ -8,16 +8,6 @@
 #define DRIVER_TOOL_DEFAULT_H
 
 #include <corto/corto.h>
-#include <driver/tool/default/_project.h>
 #include <corto/argparse/argparse.h>
 
-/* $header() */
-/* Definitions that are required by package headers (native types) go here. */
-/* $end */
-
-/* $body() */
-/* Definitions here that need your package headers go here. */
-/* $end */
-
 #endif
-
