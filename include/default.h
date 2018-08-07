@@ -8,6 +8,5 @@
 #define DRIVER_TOOL_DEFAULT_H
 
 #include <corto/corto.h>
-#include <corto/argparse/argparse.h>
 
 #endif
