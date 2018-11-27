@@ -11,10 +11,10 @@ int cortomain(int argc, char *argv[]) {
     }
     printf("Welcome to Corto! Unsure about what to do? Here are some ideas:\n");
     printf("\n");
-    printf("corto create myApp\n");
+    printf("corto create my_app\n");
     printf("  Create an executable corto application.\n");
     printf("\n");
-    printf("corto create package myPackage\n");
+    printf("corto create package my_package\n");
     printf("  Create a corto package.\n");
     printf("\n");
     printf("corto sh\n");
