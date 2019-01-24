@@ -7,6 +7,6 @@
 #ifndef DRIVER_TOOL_DEFAULT_H
 #define DRIVER_TOOL_DEFAULT_H
 
-#include <corto/corto.h>
+#include <corto>
 
 #endif

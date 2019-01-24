@@ -4,7 +4,6 @@
     "value": {
         "author": "Sander Mertens",
         "description": "Default command for corto tool",
-        "managed": false,
         "use": ["corto"]
     }
 }
