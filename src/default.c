@@ -1,12 +1,11 @@
 
-#include <corto/corto.h>
-#include <driver/tool/default/default.h>
+#include <driver.tool.default>
 
 int cortomain(int argc, char *argv[]) {
 
-    int8_t rc, sig = corto_proc_cmd("corto --logo", &rc);
+    int8_t rc, sig = ut_proc_cmd("corto --logo", &rc);
     if (sig || rc) {
-        corto_throw("cannot invoke corto tool");
+        ut_throw("cannot invoke corto tool");
         goto error;
     }
     printf("Welcome to Corto! Unsure about what to do? Here are some ideas:\n");
